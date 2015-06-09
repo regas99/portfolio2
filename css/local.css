@@ -1,10 +1,24 @@
-/* center carousel image in page */
+.pad-20 {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
 .btn-primary {
 	background-color: #48CC34;
 }
-.image-left {
+.float-left {
 	float: left;
+	text-align: left;
 }
-.image-right {
+.float-right {
 	float: right;
+	text-align: left;
+}
+.list-left {
+	margin-left: 10%;
+	text-align: left;
 }
