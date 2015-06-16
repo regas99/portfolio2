@@ -79,6 +79,7 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">     
@@ -88,11 +89,14 @@
               <h1>The Challenge</h1>
               <p>IT Systems Integrators source HW and SW from dozens of manufacturers, combine the disparate element into a packaged solution, and deliver the complete package to an end-user customer. There needs to be a single customer quote which pulls together all the pieces into a single document.</p>
               <p>Each manufacturer typically has tens of thousands of SKUs, and each provides quotes in a proprietary format. For example:</p>
+              <br>
               <p>A Sun quote might look like this:</p>
                 <a href='#'><img src='img/sun_quote.jpg' alt='Sun Quote' height = "100px"></a>
+                <br><br>
                 <p>While a Symantec support quote might look like this:</p>
                 <a href="#"><img src='./img/symantec_quote.jpg' alt='Symantec Quote' height="100px"></a>
-                <p>This application helps pull data from various vendor quotes into a single format.</p>
+                <br><br>
+                <p>This application helps translate data from various vendor quotesinto a common format.</p>
             </div>  <!-- carousel-caption -->
           </div>  <!-- container -->
         </div>  <!-- item -->
@@ -122,8 +126,7 @@
             <div class="carousel-caption">
               <h1>Creating a Quote</h1>
               <p>The user imports the 'source' or 'vendor quote' into a database and identifies which row contains the field names. The field names are then mapped to output fields.</p>
-              <p>The <em>map</em> element records these relationships.</p>
-              <p>A new map is created via jQuery and saved in the database for later reuse.</p>
+              <p>The <em>map</em> element records these relationships. You can choose an existing maps, or create ane one via jQuery. Each new map is saved in the database for later reuse.</p>
               <p> Finally, the rows containing the line items are selected, and the final output quote is saved in the database and is also displayed for input to another program, typically a spreadsheet.</p>
             </div>  <!-- carousel-caption -->
           </div>  <!-- container -->
